@@ -4,7 +4,7 @@ const jwt=require('jsonwebtoken');
 const bcrypt=require('bcryptjs')
 const {APP_SECRET,getUserId}= require('./src/utlis');
 const {SendEmail}=require('./src/sendemail');
-const receipent="send2avinash@yahoo.com";
+const receipent="xxxx@xxx.com"; // change receipent email id here
 const cron= require('node-cron');
 const {request} = require('graphql-request');
 
