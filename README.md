@@ -37,6 +37,6 @@ In the Query Variables Section create a user
 
 {
   "username":"rahulBose",// select any username you want
-  "email":"rahulBose@gmail.com",// select any user email you want
-  "password":"rahulBose"//// select any password you want
+  "email":"xxxxx@xxxxx.com",// select any user email you want
+  "password":"xxxxxx"//// select any password you want
 }
