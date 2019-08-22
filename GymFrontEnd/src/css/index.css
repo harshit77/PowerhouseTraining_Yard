@@ -1,0 +1,288 @@
+a {
+    text-decoration: none;
+}
+
+.makeStyles-grow-1 a{
+    color: #fff;
+}
+.floatRight {
+    float:right;
+}
+.listContainer {
+    margin: 20px 20px;
+    width: 30%;
+    float: left;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 0;
+    font-size: 12px;
+    color: hsl(0, 0%, 60%);
+    border-radius: 4px;
+    box-shadow: hsl(0, 0%, 80%) 0 0 16px;
+    overflow: hidden;
+    background-color: hsl(0, 0%, 100%);
+    display: -ms-flexbox;
+    display: flex;
+}
+.middleListSection {
+    padding: 16px;
+    width: 100%;
+}
+/* .leftListSection {
+    width: 25%;
+    padding: 16px;
+    float: left;
+}
+.middleListSection {
+    padding: 16px;
+    width: calc(100% - 25% - 16px);
+}
+.rightListSection {
+    width: 200px;
+    padding: 16px;
+    text-align: center;
+    border-left: 1px solid hsl(0, 0%, 90%);
+}
+.rightListSection >div{
+    margin-top: 40px;
+} */
+.mblayout {
+    color: #ffffff;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 85%;
+    margin-top: 15px;
+    text-align: center;
+}
+.leftListSection,.middleListSection,.rightListSection {
+    padding: 16px 0;
+} 
+
+.leftListSection {
+    width: 35%;
+    margin-right: 10px;
+    padding: 16px 10px;
+}
+
+.rightListSection {
+    display: none
+}
+ .updateEdit{
+    width: 9.433%;
+    margin-top: -10px;
+    height: 44px;
+ }
+.searchListContainer {
+    width: 90%;
+    margin: 2% auto 0;
+}
+.avatar {
+    margin: 15px 0 10px 20px !important;
+    width: 60px !important;
+    height: 60px !important;
+}
+.avatarProfile {
+    margin: 30px 0 10px 100px !important;
+}
+.centerAlign {
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    font-weight: 400;
+    color: #5f5e5e;
+    word-break: break-word;
+    letter-spacing: 0.03em;
+    height: 45px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+}
+.MuiTableRow-root.Mui-selected {
+    background: #707372 !important;
+}
+.MuiTableCell-head {
+    background: #F0F2F8;
+}
+body {
+        background-color: hsl(0, 0%, 98%);
+}
+.MuiChip-label {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+.activeStatus {
+    background-color: #4caf50 !important;
+    border-radius: 4px;
+}
+.dangerStatus {
+    background-color: #f50057 !important;
+    border-radius: 4px;
+}
+.deactiveStatus {
+    background-color: #cccccc !important;
+    border-radius: 4px;
+}
+.subtext {
+    font-size: 17px;
+    margin: 10px 0;
+    display: flex;
+}
+.subtextHeader {
+    color: hsl(0, 0%, 60%);
+    width: 35%;
+    float: left;
+}
+
+.subTextContent {
+    color: hsl(0, 0%, 30%);
+    width: 50%;
+}
+.fieldAligment {
+    margin-left: 20px !important;
+    margin-top:20px !important;
+}
+.fullWidth {
+    width: 100%
+}
+
+.textField {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    display:flex !important;
+ }
+.error {
+    border-color: #f44336;
+    color: #f44336;
+    font-size: 15px;
+}
+.dateSearchContainer{
+    margin-bottom:15px;
+    margin-left: 10px;
+}
+.marginLeftText {
+    margin-left: 20px;
+}
+.marginTopText{
+    margin-top: 20px;
+}
+.buttonSearch {
+    margin-left: 8% !important;
+    margin-top: -5px !important;
+    padding: 10px 40px 10px 40px !important;
+}
+.dateBoxSepartor {
+    display: inline-block;
+    margin: 20px 5%;
+}
+.halfWidth {
+    width: 30%
+}
+.MuiDrawer-paperAnchorLeft {
+    width: 15%;
+}
+.paperHeader{
+    font-size: 20px;
+    padding: 25px 20px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+}
+.success {
+    background-color: #4caf50 !important;
+    color: #ffffff;
+    margin-left: 10px;
+}
+.noMarginLeft {
+    margin-left: 0 !important;
+}
+.displayonlyMb {display: none;text-align: center}
+
+.Forget-form-3 
+{
+    margin-top: 40px;
+}
+.authContainer {
+    width: 33%;
+    margin: 80px auto;
+}
+.messageALert{
+    background: #cccc;
+    padding: 10px;
+}
+
+@media (max-width: 640px) {
+    .leftListSection,.middleListSection,.rightListSection {
+        padding: 16px 0;
+    } 
+    .leftListSection {
+        width: 28%;
+        margin-right: 10px
+    }
+    .listContainer {
+        margin: 24px 0 ;
+        float: none;
+        width:100%
+    }
+    .rightListSection {
+        display: none
+    }
+    .displayonlyMb, .mblayout {display: block}
+    
+    .subtextHeader{
+        width: 50%;
+    }
+    .avatar { 
+        margin: 10px !important;
+    }
+    .centerAlign {
+        letter-spacing: 0;
+        padding: 0 8px 0 0;
+    }
+    .searchListContainer {
+        width: 96%;
+    }
+    .halfWidth {
+        width: 100%
+    }
+    .dateSearchContainer{
+        margin:25px 0 25px 0;
+    }
+    .buttonSearch {
+        width: 100%;
+        margin-left: 0 !important;
+        margin-top: 25px !important;
+    }
+    .dateBoxSepartor {
+        display: inline-block;
+        margin: 20px 0;
+        width: 100%;
+        text-align: center;
+    }
+    .textField {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        display:flex !important;
+     }
+     .fieldAligment {
+        margin-left: 0 !important;
+        margin-top: 10px !important;
+    }
+    .MuiDrawer-paperAnchorLeft {
+        width: 45%;
+    }
+    .success {
+        margin-left: 15px;
+    }
+    .noPaddingmb {
+        padding: 0 !important;
+    }
+    .hideMb {
+        display: none
+    }
+    .messageALert {
+        background: #cccc;
+        padding: 10px;
+        white-space: nowrap;
+        margin-left: -22px!important;
+    }
+}
