@@ -1,0 +1,49 @@
+type User {
+  id: ID! @id
+  username: String!
+  password:String!
+  email:String! @unique
+  notification:[Notification!]!
+  readNotificationCount:String
+  createdAt:DateTime @createdAt
+  updatedAt:DateTime  @updatedAt
+}
+type Member {
+  id:ID! @id
+  firstName:String!
+  lastName:String!
+  email:String! @unique
+  gender:String!
+  phoneNumber:String!
+  alternateNumber:String!
+  DOB:DateTime
+  package:[Package!]!
+  createdAt:DateTime @createdAt
+  updatedAt:DateTime  @updatedAt
+  recommanded:[Member!]!
+  address:String!
+  status:Status! @default(value:ACTIVE)
+}
+type Package {
+  id:ID! @id
+  name:String!
+  memberShipId: Member @relation(link:INLINE)
+  startDate:DateTime
+  endDate:DateTime
+  fees:String!
+}
+
+type Notification {
+  id:ID! @id
+  typeofOperation:String!
+  category:String!
+  owner:User!
+  impactedId:String!
+  createdAt:DateTime!
+  updatedAt:DateTime!
+}
+enum Status {
+  ACTIVE,
+  DEACTIVE,
+  DANGER
+}
