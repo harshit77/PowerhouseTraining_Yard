@@ -18,7 +18,7 @@ import SignUpWithData from '../components/SignUp.jsx';
  import UpdateUserWithData from '../components/UpdateUser.jsx';
 
 const httplink=createHttpLink({
-  uri:'http://localhost:4000'
+  uri:'https://eu1.prisma.sh/public-brassmare-562/prisma-books/dev'
 });
 
 const authLink=setContext((_,{headers})=>{
