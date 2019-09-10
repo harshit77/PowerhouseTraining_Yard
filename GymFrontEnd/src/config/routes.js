@@ -18,7 +18,7 @@ import SignUpWithData from '../components/SignUp.jsx';
  import UpdateUserWithData from '../components/UpdateUser.jsx';
 
 const httplink=createHttpLink({
-  uri:'https://eu1.prisma.sh/public-brassmare-562/prisma-powerhouseTrainingYardPanki/dev'
+  uri:'https://modest-yalow-7daa94.netlify.com'
 });
 
 const authLink=setContext((_,{headers})=>{
