@@ -18,7 +18,7 @@ import SignUpWithData from '../components/SignUp.jsx';
  import UpdateUserWithData from '../components/UpdateUser.jsx';
 
 const httplink=createHttpLink({
-  uri:'https://modest-yalow-7daa94.netlify.com'
+  uri:'https://modest-yalow-7daa94.netlify.com/index'
 });
 
 const authLink=setContext((_,{headers})=>{
