@@ -1,4 +1,8 @@
 # PowerhouseTraining_Yard
+
+Username:hsahu77@gmail.com
+Password:hsahu7755
+
 Gym Project based on React(16.8) and Prisma GraphQL
 Follow Below Steps to get the desired Product
 
